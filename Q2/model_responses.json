@@ -1,0 +1,79 @@
+{
+  "responses": [
+    {
+      "question": "What is the capital of France?",
+      "model_answer": "The capital of France is Paris.",
+      "type": "KB"
+    },
+    {
+      "question": "How many continents are there?",
+      "model_answer": "There are seven continents.",
+      "type": "KB"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "model_answer": "Jupiter.",
+      "type": "KB"
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "model_answer": "William Shakespeare.",
+      "type": "KB"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "model_answer": "The chemical symbol for gold is Au.",
+      "type": "KB"
+    },
+    {
+      "question": "What year did World War II end?",
+      "model_answer": "World War II ended in 1945.",
+      "type": "KB"
+    },
+    {
+      "question": "What is the fastest land animal?",
+      "model_answer": "The fastest land animal is the cheetah, which can reach speeds of up to 75 miles per hour (120 kilometers per hour) in short bursts.",
+      "type": "KB"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "model_answer": "A hexagon has six sides.",
+      "type": "KB"
+    },
+    {
+      "question": "What is the boiling point of water at sea level?",
+      "model_answer": "The boiling point of water at sea level is 100 degrees Celsius or 212 degrees Fahrenheit.",
+      "type": "KB"
+    },
+    {
+      "question": "Which organ in the human body produces insulin?",
+      "model_answer": "The pancreas.",
+      "type": "KB"
+    },
+    {
+      "question": "What is the population of Mars?",
+      "model_answer": "There is currently no known population on Mars as it is not inhabited by humans.",
+      "type": "EDGE"
+    },
+    {
+      "question": "Who invented the time machine?",
+      "model_answer": "The concept of a time machine is often attributed to H.G. Wells, who wrote about it in his novel \"The Time Machine\" published in 1895. However, time machines are fictional and have not been invented in reality.",
+      "type": "EDGE"
+    },
+    {
+      "question": "What is the capital of Atlantis?",
+      "model_answer": "Atlantis is a mythical island and not a real place, so it does not have a capital.",
+      "type": "EDGE"
+    },
+    {
+      "question": "How many legs does a unicorn have?",
+      "model_answer": "A unicorn is typically depicted as having four legs.",
+      "type": "EDGE"
+    },
+    {
+      "question": "What color is invisible light?",
+      "model_answer": "Invisible light does not have a color because it is not visible to the human eye.",
+      "type": "EDGE"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "validation_results": [
+    {
+      "question": "What is the capital of France?",
+      "model_answer": "The capital of France is Paris.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "paris",
+      "needs_retry": false
+    },
+    {
+      "question": "How many continents are there?",
+      "model_answer": "There are seven continents.",
+      "question_type": "KB",
+      "validation_status": "RETRY",
+      "validation_message": "answer differs from KB",
+      "correct_answer": "7",
+      "needs_retry": true
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "model_answer": "Jupiter.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "jupiter",
+      "needs_retry": false
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "model_answer": "William Shakespeare.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "william shakespeare",
+      "needs_retry": false
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "model_answer": "The chemical symbol for gold is Au.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "au",
+      "needs_retry": false
+    },
+    {
+      "question": "What year did World War II end?",
+      "model_answer": "World War II ended in 1945.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "1945",
+      "needs_retry": false
+    },
+    {
+      "question": "What is the fastest land animal?",
+      "model_answer": "The fastest land animal is the cheetah, which can reach speeds of up to 75 miles per hour (120 kilometers per hour) in short bursts.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "cheetah",
+      "needs_retry": false
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "model_answer": "A hexagon has six sides.",
+      "question_type": "KB",
+      "validation_status": "RETRY",
+      "validation_message": "answer differs from KB",
+      "correct_answer": "6",
+      "needs_retry": true
+    },
+    {
+      "question": "What is the boiling point of water at sea level?",
+      "model_answer": "The boiling point of water at sea level is 100 degrees Celsius or 212 degrees Fahrenheit.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "100 degrees celsius",
+      "needs_retry": false
+    },
+    {
+      "question": "Which organ in the human body produces insulin?",
+      "model_answer": "The pancreas.",
+      "question_type": "KB",
+      "validation_status": "PASS",
+      "validation_message": "answer matches KB",
+      "correct_answer": "pancreas",
+      "needs_retry": false
+    },
+    {
+      "question": "What is the population of Mars?",
+      "model_answer": "There is currently no known population on Mars as it is not inhabited by humans.",
+      "question_type": "EDGE",
+      "validation_status": "RETRY",
+      "validation_message": "out-of-domain",
+      "correct_answer": null,
+      "needs_retry": true
+    },
+    {
+      "question": "Who invented the time machine?",
+      "model_answer": "The concept of a time machine is often attributed to H.G. Wells, who wrote about it in his novel \"The Time Machine\" published in 1895. However, time machines are fictional and have not been invented in reality.",
+      "question_type": "EDGE",
+      "validation_status": "RETRY",
+      "validation_message": "out-of-domain",
+      "correct_answer": null,
+      "needs_retry": true
+    },
+    {
+      "question": "What is the capital of Atlantis?",
+      "model_answer": "Atlantis is a mythical island and not a real place, so it does not have a capital.",
+      "question_type": "EDGE",
+      "validation_status": "RETRY",
+      "validation_message": "out-of-domain",
+      "correct_answer": null,
+      "needs_retry": true
+    },
+    {
+      "question": "How many legs does a unicorn have?",
+      "model_answer": "A unicorn is typically depicted as having four legs.",
+      "question_type": "EDGE",
+      "validation_status": "RETRY",
+      "validation_message": "out-of-domain",
+      "correct_answer": null,
+      "needs_retry": true
+    },
+    {
+      "question": "What color is invisible light?",
+      "model_answer": "Invisible light does not have a color because it is not visible to the human eye.",
+      "question_type": "EDGE",
+      "validation_status": "RETRY",
+      "validation_message": "out-of-domain",
+      "correct_answer": null,
+      "needs_retry": true
+    }
+  ]
+}

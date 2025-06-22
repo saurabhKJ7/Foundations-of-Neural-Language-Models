@@ -1,0 +1,53 @@
+{
+  "retry_results": [
+    {
+      "question": "How many continents are there?",
+      "retry_answer": "There are seven continents.",
+      "retry_status": "RETRY",
+      "retry_message": "answer differs from KB",
+      "correct_answer": "7"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "retry_answer": "A hexagon has six sides.",
+      "retry_status": "RETRY",
+      "retry_message": "answer differs from KB",
+      "correct_answer": "6"
+    },
+    {
+      "question": "What is the population of Mars?",
+      "retry_answer": "There is currently no known population on Mars as it is uninhabited by humans.",
+      "retry_status": "RETRY",
+      "retry_message": "out-of-domain",
+      "correct_answer": null
+    },
+    {
+      "question": "Who invented the time machine?",
+      "retry_answer": "The concept of a time machine is often attributed to H.G. Wells, who popularized the idea in his 1895 novel \"The Time Machine.\"",
+      "retry_status": "RETRY",
+      "retry_message": "out-of-domain",
+      "correct_answer": null
+    },
+    {
+      "question": "What is the capital of Atlantis?",
+      "retry_answer": "Atlantis is a mythical island and not a real place, so it does not have a capital.",
+      "retry_status": "RETRY",
+      "retry_message": "out-of-domain",
+      "correct_answer": null
+    },
+    {
+      "question": "How many legs does a unicorn have?",
+      "retry_answer": "A unicorn is typically depicted as having four legs.",
+      "retry_status": "RETRY",
+      "retry_message": "out-of-domain",
+      "correct_answer": null
+    },
+    {
+      "question": "What color is invisible light?",
+      "retry_answer": "Invisible light does not have a color because it is not visible to the human eye.",
+      "retry_status": "RETRY",
+      "retry_message": "out-of-domain",
+      "correct_answer": null
+    }
+  ]
+}
